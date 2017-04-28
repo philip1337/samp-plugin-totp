@@ -3,6 +3,7 @@
 #################################################
 
 add_subdirectory(${SAMP_TOTP_EXTERNAL}/totp)
+set_target_properties(cppotp PROPERTIES COMPILE_FLAGS "-m32" LINK_FLAGS "-m32")
 
 ##################################################
 # AMXLib / sampsdk

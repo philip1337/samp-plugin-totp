@@ -13,7 +13,6 @@ endif(NOT CMAKE_BUILD_TYPE)
 
 # Set Cpp11
 set (CMAKE_CXX_STANDARD 11)
-set (CMAKE_CXX_FLAGS -m32)
 
 # Set project title
 project(samp-plugin-totp)
