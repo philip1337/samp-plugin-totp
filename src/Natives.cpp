@@ -6,8 +6,8 @@
 #include <ctime>
 #include <iostream>
 
-#include <libcppotp\bytes.h>
-#include <libcppotp\otp.h>
+#include <libcppotp/bytes.h>
+#include <libcppotp/otp.h>
 
 SAMPTOTP_BEGIN_NS
 
